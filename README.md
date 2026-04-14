@@ -1,39 +1,38 @@
 
 # 🏥 Healthcare Analytics Project
+This project focuses on predicting whether a diabetic patient will be readmitted to the hospital within 30 days.
 
-## Predicting 30-Day Hospital Readmission for Diabetes Patients
+## Problem
 
-### 📌 Problem Statement
+Frequent hospital readmissions increase cost and show that patient care may not be fully effective. So, the aim is to predict early whether a patient might get readmitted.
 
-Hospital readmissions within 30 days increase healthcare costs and indicate gaps in patient care.
-This project predicts whether a diabetic patient will be readmitted within 30 days using historical data.
+## Dataset
 
-### 🎯 Objective
+I used a dataset containing hospital records of diabetic patients. It includes details like age, glucose level, number of visits, diagnosis, etc.
 
-* Predict readmission risk
-* Improve patient care
-* Reduce hospital costs
+## Preprocessing
 
-### ⚙️ Technologies Used
+* Handled missing values in the dataset
+* Converted categorical data into numbers
+* Cleaned the data before training
 
-* Python
-* Pandas, NumPy
-* Scikit-learn
-* Matplotlib
-
-### 🧠 Models Used
+## Models Used
 
 * Logistic Regression
 * Decision Tree
 * Random Forest
 
-### 📊 Output
+## Goal
 
-Predicts:
+To predict if a patient will be readmitted within 30 days.
 
-* Readmitted (Yes)
-* Not Readmitted (No)
+## Output
 
-### 💡 Conclusion
+The model gives output as:
 
-Helps hospitals identify high-risk patients early and improve decision-making.
+* Yes (readmitted)
+* No (not readmitted)
+
+## Conclusion
+
+This project helps in identifying patients who are at higher risk, which can help hospitals take better decisions.
